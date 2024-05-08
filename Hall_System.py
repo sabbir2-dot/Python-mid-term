@@ -13,7 +13,7 @@ class Star_Cinema:
 
 class Hall(Star_Cinema):  
     def __init__(self, rows, cols, hall_no):
-        super().__init__(self)  
+        super().__init__()  
         self._seats = {}  
         self._show_list = []  
         self._rows = rows
